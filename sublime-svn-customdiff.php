@@ -19,7 +19,7 @@
  * done, she'll be right!
  *
  * @version   0.0.1-2014.01.25
- * @author    CodeXP <codexp@gmx.net>
+ * @author    CodeXP <codexp_at_gmx.net>
  * @license   GPL License
  * @copyright Copyright (C) 2014 by CodeXP
  */
