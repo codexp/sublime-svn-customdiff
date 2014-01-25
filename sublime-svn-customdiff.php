@@ -30,6 +30,7 @@ ob_start();
 /*
  * report errors to this recipients
  */
+$report    = true;
 $report_to = array(
     'your name' => 'your@email.com',
 );
@@ -105,7 +106,7 @@ if( $buffer = ob_get_contents() ) {
 }
 
 // if there was somethig ...
-if( $log ) {
+if( $report && $log && $report_to ) {
     $to = array();
     foreach( $report_to as $name => $email ) {
         if( is_string($name) ) {
